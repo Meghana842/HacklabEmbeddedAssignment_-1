@@ -1,0 +1,76 @@
+[0;32mI (13) boot: ESP-IDF v5.2-dev-544-g54576b7528 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time May 23 2023 17:29:53[0m
+[0;32mI (14) boot: Multicore bootloader[0m
+[0;32mI (18) boot: chip revision: v1.0[0m
+[0;32mI (22) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (26) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (31) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (35) boot: Enabling RNG early entropy source...[0m
+[0;32mI (41) boot: Partition Table:[0m
+[0;32mI (44) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (67) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (74) boot: End of partition table[0m
+[0;32mI (78) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=094e8h ( 38120) map[0m
+[0;32mI (101) esp_image: segment 1: paddr=00019510 vaddr=3ffb0000 size=02154h (  8532) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001b66c vaddr=40080000 size=049ach ( 18860) load[0m
+[0;32mI (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13dc8h ( 81352) map[0m
+[0;32mI (144) esp_image: segment 4: paddr=00033df0 vaddr=400849ac size=074a8h ( 29864) load[0m
+[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (163) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (175) cpu_start: Pro cpu up.[0m
+[0;32mI (175) cpu_start: Starting app cpu, entry point is 0x400810d8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (193) cpu_start: Pro cpu start user code[0m
+[0;32mI (193) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (193) cpu_start: Application information:[0m
+[0;32mI (198) cpu_start: Project name:     test[0m
+[0;32mI (202) cpu_start: App version:      1[0m
+[0;32mI (207) cpu_start: Compile time:     May 23 2023 17:29:44[0m
+[0;32mI (213) cpu_start: ELF file SHA256:  e66affc279935eba...[0m
+[0;32mI (219) cpu_start: ESP-IDF:          v5.2-dev-544-g54576b7528[0m
+[0;32mI (225) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (230) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (235) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (240) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (247) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (253) heap_init: At 3FFB29B8 len 0002D648 (181 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (265) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (272) heap_init: At 4008BE54 len 000141AC (80 KiB): IRAM[0m
+[0;32mI (279) spi_flash: detected chip: generic[0m
+[0;32mI (283) spi_flash: flash io: dio[0m
+[0;33mW (287) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (300) app_start: Starting scheduler on CPU0[0m
+[0;32mI (305) app_start: Starting scheduler on CPU1[0m
+[0;32mI (305) main_task: Started on CPU0[0m
+[0;32mI (315) main_task: Calling app_main()[0m
+[0;32mI (315) TESTER: CONFIGURE FOR GPIO 27[0m
+[0;32mI (315) TESTER: CONFIGURE FOR GPIO 19[0m
+[0;32mI (325) TESTER: CONFIGURE FOR GPIO 32[0m
+[0;32mI (325) TESTER: CONFIGURE FOR GPIO 25[0m
+[0;32mI (335) TESTER: CONFIGURE FOR GPIO 33[0m
+[0;32mI (335) TESTER: CONFIGURE FOR GPIO 14[0m
+[0;32mI (335) TESTER: CONFIGURE FOR GPIO 13[0m
+[0;32mI (345) TESTER: CONFIGURE FOR GPIO 39[0m
+[0;32mI (345) TESTER: CONFIGURE FOR GPIO 2[0m
+[0;32mI (355) TESTER: CONFIGURE FOR GPIO 35[0m
+[0;32mI (355) TESTER: CONFIGURE FOR GPIO 36[0m
+[0;32mI (365) TESTER: Input pin 39 is low[0m
+[0;32mI (365) TESTER: Input pin 2 is low[0m
+[0;32mI (365) TESTER: Input pin 35 is low[0m
+[0;32mI (375) TESTER: Input pin 36 is low[0m
+[0;32mI (18375) TESTER: Input pin 39 is high[0m
+[0;32mI (21375) TESTER: Input pin 39 is low[0m
+[0;32mI (23775) TESTER: Input pin 35 is high[0m
+[0;32mI (25275) TESTER: Input pin 35 is low[0m
+[0;32mI (47475) TESTER: Input pin 39 is high[0m
+[0;32mI (50475) TESTER: Input pin 39 is low[0m
+[0;32mI (58575) TESTER: Input pin 35 is high[0m
+[0;32mI (60675) TESTER: Input pin 35 is low[0m
+[0;32mI (108375) TESTER: Input pin 35 is high[0m
+[0;32mI (113375) TESTER: Input pin 35 is low[0m
+[0;32mI (118075) TESTER: Input pin 39 is high[0m
+[0;32mI (120675) TESTER: Input pin 39 is low[0m

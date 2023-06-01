@@ -1,0 +1,29 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/home/meghana/esp/esp_test/esp-idf/tools/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/bin:/home/meghana/esp/esp_test/esp-idf/tools/tools/esp-rom-elfs/20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/meghana/esp/esp_test/esp-idf/tools/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/meghana/esp/esp_test/esp-idf/tools/tools/esp-rom-elfs/20230320/"
+    },
+    "idf.espIdfPath": "/home/meghana/esp/esp_test/esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.pythonBinPath": "/home/meghana/esp/esp_test/esp-idf/tools/python_env/idf5.2_py3.10_env/bin/python",
+    "idf.toolsPath": "/home/meghana/esp/esp_test/esp-idf/tools",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.flashType": "JTAG",
+    "files.associations": {
+        "*.tcc": "c",
+        "chrono": "c",
+        "cstdio": "c",
+        "string_view": "c",
+        "functional": "c",
+        "regex": "c",
+        "task.h": "c"
+    },
+    "cmake.sourceDirectory": "/home/meghana/test/main"
+}
